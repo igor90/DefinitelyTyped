@@ -13,7 +13,8 @@ declare module 'chart.js' {
 
 declare namespace TrendlineLinearPlugin {
     interface TrendlineLinearOptions {
-        style: string;
+        colorMin?: string;
+        colorMax?: string;
         lineStyle: 'dotted' | 'solid';
         width: number;
         projection?: boolean;

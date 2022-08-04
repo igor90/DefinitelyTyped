@@ -22,7 +22,8 @@ chart = new Chart(ctx, {
             {
                 data: [],
                 trendlineLinear: {
-                    style: 'rgba(255,255,255,0.1)',
+                    colorMin: 'red',
+                    colorMax: 'green',
                     lineStyle: 'dotted',
                     width: 4,
                     projection: false,
